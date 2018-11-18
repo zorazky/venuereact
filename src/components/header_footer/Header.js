@@ -16,6 +16,8 @@ class Header extends Component {
         window.addEventListener('scroll', this.handleScroll);
     }
 
+    
+
     handleScroll = () => {
         if(window.scrollY > 0) {
             this.setState({
